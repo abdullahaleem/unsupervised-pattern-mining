@@ -1,2 +1,2 @@
-# prefixspan-ms
-Different minimum item support prefix span. MS-PS.
+# ms-prefixspan
+Prefx Span with different minimum item support aka MS-PS.
