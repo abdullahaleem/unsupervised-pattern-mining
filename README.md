@@ -23,21 +23,21 @@ The algorithm, taken from the book written by my Professor, Bing Liu:
 least MIS(i). i is called a frequent item.
 2. Sort all the discovered frequent items in ascending order according to
 their MIS values. Let i1, …, iu be the frequent items in the sorted order.
-3. For each item ik in the above sorted order,
+3. For each item ik in the above sorted order:
 
-(i) identify all the data sequences in S that contain ik and at the same
-time remove every item j in each sequence that does not satisfy
-|sup(j) – sup(ik)| ≤ SDC. The resulting set of sequences is denoted by Sk.
-Note that we are not using ik as the prefix to project the database S.
+  (i) identify all the data sequences in S that contain ik and at the same
+  time remove every item j in each sequence that does not satisfy
+  |sup(j) – sup(ik)| ≤ SDC. The resulting set of sequences is denoted by Sk.
+  Note that we are not using ik as the prefix to project the database S.
 
-(ii) call the function r-PrefixSpan(ik, Sk, count(MIS(ik))) (restricted PrefixSpan),
-which finds all sequential patterns that contain ik, i.e., no
-pattern that does not contain ik should be generated. r-PrefixSpan()
-uses count(MIS(ik)) (the minimum support count in terms of the
-number of sequences) as the only minimum support for mining in Sk.
-The sequence count is easier to use than the MIS value in percentage,
-but they are equivalent. Once the complete set of such patterns
-is found from Sk, All occurrences of ik are removed from S.
+  (ii) call the function r-PrefixSpan(ik, Sk, count(MIS(ik))) (restricted PrefixSpan),
+  which finds all sequential patterns that contain ik, i.e., no
+  pattern that does not contain ik should be generated. r-PrefixSpan()
+  uses count(MIS(ik)) (the minimum support count in terms of the
+  number of sequences) as the only minimum support for mining in Sk.
+  The sequence count is easier to use than the MIS value in percentage,
+  but they are equivalent. Once the complete set of such patterns
+  is found from Sk, All occurrences of ik are removed from S.
 
 r-PrefixSpan() is almost the same as PrefixSpan with one important difference.
 During each recursive call, either the prefix or every sequence in the
