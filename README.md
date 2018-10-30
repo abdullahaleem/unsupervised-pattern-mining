@@ -4,11 +4,15 @@ Prefx Span with different minimum item support aka MS-PS.
 Prefix span is algorithm used for sequential pattern mining. An example of sequential pattern mining would be, given the information a person has a item, what item will they buy next? Traditionally, prefix span used a single minimum item support(in what percentage of transcation does our item occurs) for all item. This results in too many pattern if set too low, and missing out important pattern is set too high. A percentage of people buying a laptop would definitly be lower than people buying bread. In MS-PS we introduce different minimum item support for each item and a parameter called Support Difference Constraint(SDC) which makes sure that the differnce between support of two items isn't too high. 
 
 ms-ps.py runs the main algorithm.
+
 read-write.py reads data/parameters and writes output in a certain style. 
+
 restricted-prefixspan.py is my implementation of the algorithm given.
+
 helpers.py contains all functions I needed to implement MS-PS.
 
 parameters.txt file contains all the MIS values + SDC.
+
 data.txt file contains the sequential data. Any data type can be used.
 
 
