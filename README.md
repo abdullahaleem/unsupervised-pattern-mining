@@ -16,6 +16,7 @@ parameters.txt file contains all the MIS values + SDC.
 data.txt file contains the sequential data. Any data type can be used.
 
 
+
 The algorithm, taken from the book written by my Professor, Bing Liu:
 
 1. Find every item i whose actual support in the sequence database S is at
