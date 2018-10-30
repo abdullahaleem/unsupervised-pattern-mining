@@ -24,10 +24,12 @@ least MIS(i). i is called a frequent item.
 2. Sort all the discovered frequent items in ascending order according to
 their MIS values. Let i1, …, iu be the frequent items in the sorted order.
 3. For each item ik in the above sorted order,
+
 (i) identify all the data sequences in S that contain ik and at the same
 time remove every item j in each sequence that does not satisfy
 |sup(j) – sup(ik)| ≤ SDC. The resulting set of sequences is denoted by Sk.
 Note that we are not using ik as the prefix to project the database S.
+
 (ii) call the function r-PrefixSpan(ik, Sk, count(MIS(ik))) (restricted PrefixSpan),
 which finds all sequential patterns that contain ik, i.e., no
 pattern that does not contain ik should be generated. r-PrefixSpan()
