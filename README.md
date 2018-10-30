@@ -28,7 +28,6 @@ their MIS values. Let i1, …, iu be the frequent items in the sorted order.
   time remove every item j in each sequence that does not satisfy
   |sup(j) – sup(ik)| ≤ SDC. The resulting set of sequences is denoted by Sk.
   Note that we are not using ik as the prefix to project the database S.
-
   (ii) call the function r-PrefixSpan(ik, Sk, count(MIS(ik))) (restricted PrefixSpan),
   which finds all sequential patterns that contain ik, i.e., no
   pattern that does not contain ik should be generated. r-PrefixSpan()
