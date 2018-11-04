@@ -17,7 +17,7 @@ data.txt file contains the sequential data. Any data type can be used.
 
 
 
-The algorithm, taken from the book written by my Professor, Bing Liu:
+The algorithm, taken from the book written by my Professor at Univeristy of Illinois at Chicago, Bing Liu:
 
 1. Find every item i whose actual support in the sequence database S is at
 least MIS(i). i is called a frequent item.
