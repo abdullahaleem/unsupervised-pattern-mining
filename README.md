@@ -7,7 +7,7 @@ This project was for the course Data mining and Text mining at Univeristy of Ill
 
 Group Members:- Abdullah Aleem and Hamidreza Almasai 
 
-Note: Written using python 2
+Note: Written with python 2
 
 data_xxx.txt contains the sequences.
 parameters_xxx.txt contains the parameters
