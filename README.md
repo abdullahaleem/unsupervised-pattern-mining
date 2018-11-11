@@ -8,17 +8,12 @@ This project was for the course Data mining and Text mining at Univeristy of Ill
 Group Members:- Abdullah Aleem and Hamidreza Almasai 
 
 data_xxx.txt contains the sequences.
-
 parameters_xxx.txt contains the parameters
-
 result_xxx.txt is the file the results are written to.
-
 msprefixspan.py runs the main algorithm.
 
 
 There are 2 datasets of 100 and 1000 sequences for demo.
-
-
 For new datasets and parameters, changed the name of inputs in  ___MAIN____ (Starting line 490)
 
 
