@@ -1,7 +1,6 @@
-# ms-prefixspan
-Prefx Span with different minimum item support aka MS-PS.
+# Pattern Mining/ Recommender System for Transactional Data
 
-Prefix span is an algorithm used for sequential pattern mining. Traditionally, prefix span used a single minimum item support for all item. The problem with this approach is if the MIS is set to a low value there are alot of irrelevent patterns, and if set too high you miss out on rare items. In MS-PS there different MIS for each item and a parameter called Support Difference Constraint(max difference between support of 2 items).
+The algorithm used is an ad hoc version of Prefix span, a sequential pattern mining algorithm. Traditionally, prefix span used a single minimum item support for all item. The problem with this approach is if the MIS is set to a low value there are alot of irrelevent patterns, and if set too high you miss out on rare items. In MS-PS there different MIS for each item and a parameter called Support Difference Constraint(max difference between support of 2 items).
 
 This project was for the course Data mining and Text mining at Univeristy of Illinois at Chicago.
 
