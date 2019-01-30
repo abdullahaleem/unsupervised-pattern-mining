@@ -1,4 +1,4 @@
-# Recommendations by Pattern Mining (MS-PrefixSpan)
+# Pattern Mining/Recommendation (MS-PrefixSpan)
 
 An algorithm that mines important patterns from unsupervised sequential data. It allows you to define what's important. Recommendations or other business decsions can then be made using the found patterns.
 
