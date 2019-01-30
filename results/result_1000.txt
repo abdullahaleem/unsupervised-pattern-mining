@@ -1,0 +1,34 @@
+The number of length 1 sequential patterns is 5
+Pattern : <{g }>:Count=592
+Pattern : <{h }>:Count=675
+Pattern : <{i }>:Count=741
+Pattern : <{j }>:Count=794
+Pattern : <{k }>:Count=808
+The number of length 2 sequential patterns is 20
+Pattern : <{g i }>:Count=337
+Pattern : <{g h }>:Count=264
+Pattern : <{g k }>:Count=377
+Pattern : <{g j }>:Count=378
+Pattern : <{g }{i }>:Count=337
+Pattern : <{g }{h }>:Count=264
+Pattern : <{g }{k }>:Count=377
+Pattern : <{g }{j }>:Count=378
+Pattern : <{h i }>:Count=425
+Pattern : <{h k }>:Count=480
+Pattern : <{h j }>:Count=479
+Pattern : <{h }{i }>:Count=425
+Pattern : <{h }{k }>:Count=480
+Pattern : <{h }{j }>:Count=479
+Pattern : <{i k }>:Count=574
+Pattern : <{i j }>:Count=575
+Pattern : <{i }{k }>:Count=574
+Pattern : <{i }{j }>:Count=575
+Pattern : <{j k }>:Count=674
+Pattern : <{j }{k }>:Count=674
+The number of length 3 sequential patterns is 6
+Pattern : <{g j k }>:Count=282
+Pattern : <{g j }{k }>:Count=282
+Pattern : <{h j k }>:Count=380
+Pattern : <{h j }{k }>:Count=380
+Pattern : <{i j k }>:Count=475
+Pattern : <{i j }{k }>:Count=475

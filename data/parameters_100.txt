@@ -1,0 +1,12 @@
+MIS(a) = 0.29
+MIS(b) = 0.74
+MIS(c) = 0.95
+MIS(d) = 0.59
+MIS(e) = 0.82
+MIS(f) = 0.65
+MIS(g) = 0.68
+MIS(h) = 0.25
+MIS(i) = 0.33
+MIS(j) = 0.61
+MIS(k) = 0.6
+SDC = 0.33
