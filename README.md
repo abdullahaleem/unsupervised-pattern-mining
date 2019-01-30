@@ -1,6 +1,6 @@
 # Pattern Mining/Recommendation with msPrefixSpan
 
-A algorithm that mines important patterns from unsupervised data. By allowing you to define what's important. Recommendations or other business decsions can then be made using the found patterns.
+A algorithm that mines important patterns from unsupervised data. It allows you to define what's important. Recommendations or other business decsions can then be made using the found patterns.
 
 
 By Abdullah Aleem and Hamidreza Almasai <br>
