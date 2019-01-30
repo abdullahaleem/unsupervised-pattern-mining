@@ -1,4 +1,7 @@
-# Pattern Mining / Recommendation
+# Pattern Mining/Recommendation with msPrefixSpan
+
+A algorithm that mines important patterns from unsupervised data. Allowing you to define what's important. Recommendations or other business decsions can then be made using the found patterns.
+
 
 By Abdullah Aleem and Hamidreza Almasai <br>
 For Data Mining and Text Mining by Bing Liu <br>
