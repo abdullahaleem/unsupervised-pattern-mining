@@ -9,6 +9,8 @@ At Univeristy of Illinois at Chicago <br>
 
 ---
 
+![sample](msps.png)
+
 ### Why use this ?
 
 The legend says that a study was done by a retail grocery store.  The findings were that men between 30- 40 years in age, shopping between 5pm and 7pm on Fridays, who purchased diapers were most likely to also have beer in their carts.  This motivated the grocery store to move the beer isle  closer to the diaper isle and wiz-boom-bang, instant 35% increase in sales of both. [Link](http://canworksmart.com/diapers-beer-retail-predictive-analytics/)
