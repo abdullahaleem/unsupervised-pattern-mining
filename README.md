@@ -2,11 +2,6 @@
 
 An algorithm that mines important patterns from unsupervised sequential data. It allows you to define what's important. Recommendations or other business decsions can then be made using the found patterns.
 
-
-By Abdullah Aleem and Hamidreza Almasai <br>
-For Data Mining and Text Mining by Bing Liu <br>
-At Univeristy of Illinois at Chicago <br>
-
 ---
 
 ![sample](msps.png)
@@ -31,3 +26,8 @@ For now, there are 2 data sets available 'data_100' and data_1000'. These datase
 
 
 For short demo on how to use this algorithm see 'example.ipynb' or [Click Here](https://github.com/abaleem/pattern-mining/blob/master/example.ipynb)
+
+
+By Abdullah Aleem and Hamidreza Almasai <br>
+For Data Mining and Text Mining by Bing Liu <br>
+At Univeristy of Illinois at Chicago <br>
