@@ -3,9 +3,6 @@
 An algorithm that mines important patterns from unsupervised sequential data. It allows you to define what's important.  
 The mined patterns can used to recommend products to users when they buy something or it can used whilst making business decisions e.g. product placements in retail stores.
 
----
-
-![sample](msps.png)
 
 ## Overview
 
@@ -31,3 +28,5 @@ For now, there are 2 data sets available 'data_100' and data_1000'. These datase
 
 ## Demo
 For short demo on how to use this algorithm see 'example.ipynb' or [Click Here](https://github.com/abaleem/pattern-mining/blob/master/example.ipynb)
+
+![sample](msps.png)
